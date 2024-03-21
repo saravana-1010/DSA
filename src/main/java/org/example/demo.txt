@@ -1,0 +1,38 @@
+Root: 81
+Target: 34, Res: 1
+[34,25,45,84,81,]
+Target: 10, Res: 2
+[10,56,55,84,81,]
+Target: 54, Res: 3
+[54,28,92,82,81,]
+81
+
+
+Root: 97
+Target: 50, Res: 1
+[50,83,84,97,]
+Target: 0, Res: 2
+[0,56,84,97,]
+Target: 19, Res: 3
+[19,83,84,97,]
+84
+
+
+Root: 62
+Target: 87, Res: 1
+[]
+Target: 99, Res: 2
+[99,11,100,62,]
+Target: 12, Res: 3
+[12,2,510,62,]
+62
+
+
+Root: 62
+Target: 39, Res: 1
+[]
+Target: 27, Res: 2
+[]
+Target: 5, Res: 3
+[5,48,61,3,62,]
+62
