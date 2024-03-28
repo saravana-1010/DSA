@@ -21,7 +21,7 @@ public class Problem1 {
             Example 2:
     input: [book, bat, ball, glass, food, phone, can, remote, cap, bag, basket]
 
-    output: [book, bat, ball, glass, remote]
+    output: [book, bat, glass, remote]
      */
     public static List<String> uniqueLengthStrings(List<String> stringList) {
         List<String> result = new ArrayList<>();
