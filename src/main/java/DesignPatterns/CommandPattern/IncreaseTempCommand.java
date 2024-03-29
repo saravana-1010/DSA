@@ -9,4 +9,9 @@ public class IncreaseTempCommand implements Command {
     public void execute() {
         ac.increaseTemp();
     }
+
+    @Override
+    public void undo() {
+        ac.decreaseTemp();
+    }
 }

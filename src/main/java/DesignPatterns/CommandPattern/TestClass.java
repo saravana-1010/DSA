@@ -10,5 +10,9 @@ public class TestClass {
         remote.turnOnAC();
         remote.turnOffAC();
         remote.increaseTemp();
+        System.out.println();
+        remote.undoButton1();
+        remote.undoButton2();
+        remote.undoButton3();
     }
 }

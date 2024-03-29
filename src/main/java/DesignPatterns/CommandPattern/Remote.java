@@ -29,5 +29,13 @@ public class Remote {
         this.button4 = button4;
     }
 
-
+    public void undoButton1() {
+        button1.undo();
+    }
+    public void undoButton2() {
+        button2.undo();
+    }
+    public void undoButton3() {
+        button3.undo();
+    }
 }

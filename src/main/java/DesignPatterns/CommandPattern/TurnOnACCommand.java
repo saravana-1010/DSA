@@ -9,4 +9,9 @@ public class TurnOnACCommand implements Command {
     public void execute() {
         ac.turOnAC();
     }
+
+    @Override
+    public void undo() {
+        ac.turnOffAC();
+    }
 }
