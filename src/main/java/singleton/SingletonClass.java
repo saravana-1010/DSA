@@ -1,18 +1,20 @@
 package singleton;
 
 public class SingletonClass {
-    public static SingletonClass instance;
+    private static volatile SingletonClass instance;
 
-//    private SingletonClass() {
-//
-//    }
+    private SingletonClass() {
+    }
 
     public static SingletonClass getSingletonInstance() {
         if(instance == null) {
-            instance = new SingletonClass();
-            System.out.println("Inside condition");
+            synchronized (SingletonClass.class) {
+                if (instance == null) {
+                    instance = new SingletonClass();
+                    System.out.println("Inside condition");
+                }
+            }
         }
-
         return instance;
     }
 }
